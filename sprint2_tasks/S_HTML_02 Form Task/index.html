@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>From Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <fieldset class="personalData-fieldset">
+            <legend class="personalData-legend">
+               <div>Personal Data</div>
+            </legend>
+
+            <fieldset class="fullName-fieldset">
+                
+                <legend class="fullName-legend" >
+                    <div>Your Name</div>
+                </legend>    
+               
+                <div>
+                    <label for="firstName" >First Name</label>
+                    :<input type="text" id="firstName" placeholder="ex.Mohamed"><br>
+
+                    <label for="SecondName">Second Name</label>
+                    :<input type="text" id="SeconName" placeholder="ex.Hashem"><br>
+                </div>
+            </fieldset>
+
+            <div class="login-info">
+                <label for="Phone">Your phone</label>
+                :<input type="text" id="Phone"><br>
+
+                <label for="Email">Email</label>
+                :<input type="email" id="=Email"><br>
+
+                <label for="password"> Password</label>
+                :<input type="password" id="password"><br>
+
+                <label for="re-password"> re-Password</label>
+                :<input type="password" id="re-Password"><br>
+            </div>
+            
+            <div>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label><br>
+            </div>
+
+            <div>
+                <input type="checkbox" id="student" >
+                <label for="student"> Student</label><br>
+            
+                <input type="checkbox" id="graduated" >
+                <label for="graduated"> Graduated</label><br>
+            </div>
+
+            <div class="universities">
+                <label for="universities">University</label>
+
+                :<select name="university" id="universities">
+                    <option value="AUC">AUC</option>
+                    <option value="Yale">Yale</option>
+                    <option value="MIT">MIT</option>
+                    <option value="Duke">Duke</option>
+                </select><br>
+            </div>
+
+                <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
